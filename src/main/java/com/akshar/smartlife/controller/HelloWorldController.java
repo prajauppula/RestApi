@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-	@GetMapping
+	@GetMapping("/welcome")
 	public String welcomeMsg() {
 		return "Welcome to SpringBoot Microservices...............!!!!!!";
 	}
